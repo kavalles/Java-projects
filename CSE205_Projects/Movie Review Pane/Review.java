@@ -20,7 +20,7 @@ public class Review
      average = 0.0;
     }
 
-   //It updates the number of REviews and avarage based on the
+   //It updates the number of reviews and average based on the
    //an additional rating specified by its parameter
    public void updateRating(double rating)
     {
@@ -34,8 +34,8 @@ public class Review
         average = 0.0;
     }
 
-   //toString() method returns a string containg its review average
-   //and te number of Reviews
+   //toString() method returns a string containing its review average
+   //and the number of Reviews
    public String toString()
     {
       DecimalFormat fmt = new DecimalFormat("0.00");
